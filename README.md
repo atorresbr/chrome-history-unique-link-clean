@@ -12,7 +12,7 @@ A bash script to clean a specific link (URL) on Google Chrome history. Why? Chro
 Just use the script, type the desired URL (e.g., 🧲 `facebook.com` or 🧲 `translate.google.com`) to the script make the deep cleaning on all spamming URLs stored on your Google Chrome browse History.
 
 ```
-sudo rm link-cleaner.sh &&
+sudo rm link-cleaner.sh 2>/dev/null || true &&
 
 wget https://raw.githubusercontent.com/atorresbr/chrome-history-unique-link-cleaner/refs/heads/main/link-cleane.sh &&
 
