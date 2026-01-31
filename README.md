@@ -16,7 +16,7 @@ sudo rm link-cleaner.sh 2>/dev/null || true &&
 
 wget https://raw.githubusercontent.com/atorresbr/chrome-history-unique-link-cleaner/refs/heads/main/link-cleaner.sh &&
 
-sudo chmod +x link-cleaner.sh && ./link-cleaner 
+sudo chmod +x link-cleaner.sh && ./link-cleaner.sh
 
 ```
 
