@@ -14,7 +14,7 @@ Just use the script, type the desired URL (e.g., 🧲 `facebook.com` or 🧲 `tr
 ```
 sudo rm link-cleaner.sh 2>/dev/null || true &&
 
-wget https://raw.githubusercontent.com/atorresbr/chrome-history-unique-link-cleaner/refs/heads/main/link-cleane.sh &&
+wget https://raw.githubusercontent.com/atorresbr/chrome-history-unique-link-cleaner/refs/heads/main/link-cleaner.sh &&
 
 sudo chmod +x link-cleaner.sh && ./link-cleaner 
 
